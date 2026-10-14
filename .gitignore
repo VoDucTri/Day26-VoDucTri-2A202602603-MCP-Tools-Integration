@@ -8,4 +8,3 @@ venv/
 *.db
 **/.DS_Store
 
-render_exact_screenshots.py
