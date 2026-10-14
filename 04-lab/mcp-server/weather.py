@@ -144,7 +144,7 @@ async def get_current_weather(city: str) -> str:
     """Get current weather conditions for a city.
 
     Args:
-        city: City name (e.g., "Hanoi", "Haiphong", "Danang", "Brisbane", "Sydney")
+        city: City name worldwide (e.g., "Brisbane", "Tokyo", "Hanoi", "Danang", "Sydney", etc.)
     """
     params = {
         "q": city,
@@ -181,7 +181,7 @@ async def get_forecast(city: str, days: int = 3) -> str:
     """Get weather forecast for a city.
 
     Args:
-        city: City name (e.g., "Hanoi", "Haiphong", "Danang", "Brisbane", "Sydney", "Melbourne")
+        city: City name worldwide (e.g., "Tokyo", "Hanoi", "Brisbane", "Danang", "Sydney", "London", etc.)
         days: Number of days to forecast (1-3 for free tier, max 10 for paid)
     """
     # Limit days to 3 for free tier

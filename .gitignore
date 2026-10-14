@@ -7,4 +7,5 @@ venv/
 .adk/
 *.db
 **/.DS_Store
-generate_windows_screenshots.py
+
+render_exact_screenshots.py
